@@ -2,13 +2,18 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
-    
+
+    p.mb-3 La Gestión y evaluación del plan de contingencia integra el análisis del contexto, la identificación de amenazas y vulnerabilidades y la valoración de las capacidades disponibles. Esta información sustenta decisiones y orienta la aplicación de medidas de prevención, mitigación y respuesta acordes con cada escenario de atención.
+
+    p.mb-3 El plan de contingencia articula estas medidas con responsabilidades, recursos y mecanismos de comunicación y apoyo. Su implementación requiere comprobar que las disposiciones puedan aplicarse y adaptarlas cuando cambian las condiciones. Los casos y las simulaciones permiten observar la coordinación, reconocer dificultades y fortalecer la preparación del equipo.
+
+    p.mb-5 La evaluación mediante el ciclo PHVA —Planear, Hacer, Verificar y Actuar— contrasta lo previsto con lo ejecutado y los resultados comprobados. Los hallazgos sustentan acciones preventivas, correctivas y de mejora, cuya ejecución y eficacia requieren seguimiento. Este proceso continuo fortalece la protección del personal sanitario y favorece la continuidad segura de la atención.
+
 
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg" alt="La Gestión y evaluación del plan de contingencia  integra análisis, prevención, mitigación y respuesta. El plan de contingencia organiza las acciones y el ciclo PHVA permite evaluar y mejorar la protección del personal sanitario.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
@@ -21,9 +26,7 @@
 <script>
 export default {
   name: 'Sintesis',
-  data: () => ({
-    // variables de vue
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

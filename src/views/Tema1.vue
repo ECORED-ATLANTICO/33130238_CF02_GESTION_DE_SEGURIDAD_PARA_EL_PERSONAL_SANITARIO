@@ -16,7 +16,7 @@
     
     
       .row.mb-lg-4.mb-3.justify-content-center.align-items-center
-        .col-lg-5.col-md-8.mb-4.mb-lg-0.order-1.order-lg-1
+        .col-lg-5.col-md-12.mb-4.mb-lg-0.order-1.order-lg-1
           figure
             img(src="@/assets/curso/tema1/img03.png", data-aos="zoom-in").mx-auto
         .col-lg-7.order-2.order-lg-2.mb-0.mb-lg-0
@@ -74,15 +74,15 @@
       h2 1.2 Identificación de vulnerabilidades
 
     .container
-      .row.align-items-center.bg-color-03.mb-4.p-3.br-15
+      .row.align-items-center.bg-color-06.mb-5.p-3.br-15
         .col-lg-12
           p.mb-0 La identificación de vulnerabilidades permite reconocer condiciones que pueden aumentar la susceptibilidad al daño o dificultar una respuesta segura frente a una amenaza. Se realiza en relación con una actividad y un contexto específicos.
 
 
-    .row.mb-lg-5.mb-4.justify-content-center.align-items-center
+    .row.mb-lg-4.mb-3.justify-content-center.align-items-center
       .col-lg-4.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
-          img(src="@/assets/curso/tema1/img07.png", data-aos="zoom-in").mx-auto.w-md-75
+          img(src="@/assets/curso/tema1/img07.png", data-aos="zoom-in").mx-auto
       .col-lg-8.order-2.order-lg-1.mb-0.mb-lg-0
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-02" data-aos="zoom-in").mb-0
           .tarjeta(titulo="Preparación individual")
@@ -111,7 +111,7 @@
     p.mb-2 El análisis relaciona las amenazas con las vulnerabilidades, las capacidades y las posibles consecuencias. La valoración utiliza esa información para establecer prioridades y orientar decisiones según la metodología adoptada.
     p.mb-4 La aplicación puede organizarse mediante la siguiente ruta de pasos:
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-4.mb-4.mb-lg-0.col-md-8.order-1.order-lg-1
         figure
           img(src="@/assets/curso/tema1/img08.png", data-aos="zoom-in", alt="")
@@ -202,8 +202,8 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 El momento de aplicación no es suficiente para diferenciar ambas medidas: una acción realizada antes de la jornada puede mitigar un riesgo que ya existe. La clasificación depende de su propósito y de la condición intervenida.
 
-    .row.mb-lg-5.mb-4.justify-content-center.align-items-center
-      .col-lg-5.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
+    .row.mb-lg-3.mb-3.justify-content-center.align-items-center
+      .col-lg-5.col-md-12.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/tema1/img15.png", data-aos="zoom-in").mx-auto
       .col-lg-7.order-2.order-lg-1.mb-0.mb-lg-0

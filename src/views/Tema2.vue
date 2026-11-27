@@ -14,7 +14,7 @@
         .col-lg-10(data-aos="fade-right")
           p.banner-text El plan de contingencia organiza las acciones previstas frente a escenarios que pueden afectar la seguridad del personal sanitario. Su implementación articula la valoración del riesgo con las medidas de prevención, mitigación y respuesta, las responsabilidades y los recursos disponibles.
 
-      .row.mb-lg-5.mb-4.justify-content-center.align-items-center
+      .row.mb-lg-4.mb-3.justify-content-center.align-items-center
         .col-lg-5.col-md-12.mb-4.mb-lg-0.order-1.order-lg-1
           figure
             img(src="@/assets/curso/tema2/img02.png", data-aos="zoom-in").mx-auto
@@ -163,19 +163,19 @@
                 th Ejemplo de aplicación
             tbody
               tr
-                td.text-bold Prevención
+                td Prevención
                 td Incorpora condiciones de seguridad desde la organización de una actividad.
                 td Definir responsables, canales y condiciones de revisión al programar una nueva jornada.
               tr
-                td.text-bold Mitigación
+                td Mitigación
                 td Interviene condiciones de riesgo existentes o reduce sus posibles consecuencias.
                 td Corregir una falla de comunicación identificada y comprobar una alternativa disponible.
               tr
-                td.text-bold Ruta de respuesta
+                td Ruta de respuesta
                 td Coordina la protección, la comunicación y los apoyos cuando la situación lo requiere.
                 td Activar el aviso institucional ante un anuncio de agresión y coordinar las medidas correspondientes.
               tr
-                td.text-bold Reevaluación
+                td Reevaluación
                 td Examina cambios y resultados para orientar nuevas decisiones.
                 td Revisar si los apoyos funcionan y si las condiciones permiten mantener, ajustar o suspender una actividad.
   
@@ -296,22 +296,22 @@
                 th Evidencia observable
             tbody
               tr
-                td.text-bold Reconocimiento del cambio
+                td Reconocimiento del cambio
                 td El equipo diferencia la inconformidad inicial del anuncio de agresión.
               tr
-                td.text-bold Prioridad de protección
+                td Prioridad de protección
                 td La actuación se ajusta cuando deja de existir seguridad para dialogar.
               tr
-                td.text-bold Uso de alternativas
+                td Uso de alternativas
                 td Se identifica y utiliza el canal alternativo previsto en el escenario.
               tr
-                td.text-bold Confirmación del apoyo
+                td Confirmación del apoyo
                 td La coordinación recibe el aviso y comunica las acciones correspondientes.
               tr
-                td.text-bold Claridad de funciones
+                td Claridad de funciones
                 td Los participantes reconocen quién informa, quién coordina y quién registra.
               tr
-                td.text-bold Registro de resultados
+                td Registro de resultados
                 td Se documentan actuaciones, dificultades y aspectos pendientes sin presentar suposiciones como hechos.
 
     .container
@@ -328,7 +328,7 @@
           h3.titulo-con-imagen__texto Resultados del ejercicio
   
   
-    .row.mb-lg-3.mb-4.justify-content-center.align-items-center
+    .row.mb-lg-5.mb-4.justify-content-center.align-items-center
       .col-lg-5.col-md-12.mb-4.mb-lg-0.order-1.order-lg-1
         figure
           img(src="@/assets/curso/tema2/img19.png", data-aos="zoom-in").mx-auto
@@ -338,7 +338,29 @@
           .row.align-items-center.bg-color-02.mb-0.p-3.br-15
             .col-lg-12
               p.mb-0 La simulación aporta así información para evaluar el plan: permite contrastar las responsabilidades previstas con las actuaciones observadas y reconocer qué ajustes deben implementarse y comprobarse. Este proceso se desarrolla en el siguiente capítulo.
+    
+    .row.mb-lg-5.mb-4.justify-content-center
+      .col-lg-7.col-md-12.mb-0.mb-lg-0.order-2.order-lg-2
+        .container.h-100
+          .row.bg-fondo-02.br-15.p-0.h-100.justify-content-center.align-content-center
+            .col-md-8.col-lg-5.mb-2.mb-lg-0.order-2.order-lg-1.p-lg-0.p-3.d-none.d-lg-block
+              figure
+                img(src="@/assets/curso/tema2/img28.png", data-aos="fade-right").w-md-50.mx-md-auto.ml-25
+            .col-lg-6.order-1.order-lg-2.p-4.p-lg-4
+              h4 ¿Sabías que?
+              p(data-aos="fade-left").mb-4 Lo invitamos a escuchar el siguiente Pódcast: 
+              TarjetaAudio.color-acento-contenido.bg-color-white.mb-0(
+                texto="Del análisis a la respuesta"
+                tiempo
+                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+              )
 
+      .col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0
+        .container.h-100
+          .row.align-content-center.bg-color-c1.mb-0.p-3.br-15.h-100
+            .col-lg-12
+              p.mb-2 El podcast “Del análisis a la respuesta” expone el caso de la jornada extramural y explica cómo se relacionan la valoración del riesgo, las medidas de protección y la coordinación institucional.
+              p.mb-0 Consulte este recurso para reconocer por qué comprobar un apoyo no resuelve todas las condiciones de riesgo y cómo una simulación permite identificar dificultades antes de una nueva actividad. 
 </template>
 
 <script>
